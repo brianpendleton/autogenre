@@ -6,7 +6,7 @@ setup(name='autogenre',
       author='Brian Pendleton',
       author_email='brian.pendleton@gmail.com',
       install_requires=['pytest', 'ijson'],
-      tests_require=['nose'],
+      tests_require=['nose', 'pytest'],
       test_suite="nose.collector"
      )
 
