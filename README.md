@@ -14,6 +14,7 @@ time testing and writing tests so I could get some use cases down and understand
 I built this on python 2.7
 Tested on Windows and Linux (using pythonanywhere)
 
+- mkvirtualenv autogenre
 - Unzip contents to autogenre folder (or clone: https://github.com/brianpendleton/autogenre.git)
 - cd autogenre
 - python setup.py develop
