@@ -5,7 +5,7 @@ from autogenre.load import GenreKeyword
 from autogenre.calc import calc_genre_fit, count_keyword_hits
 
 
-TEST_TEXT = "The boy has a dog. The\nd\no\ng barked. The dog ran away"
+TEST_TEXT = "The boy has a dog. The dog barked. The dog ran away"
 GENRES = [
     GenreKeyword('human', 'boy', 6),
     GenreKeyword('human', 'ran', 4),
