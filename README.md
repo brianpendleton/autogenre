@@ -4,8 +4,11 @@ A simple script for calculating a "best-guess" at the genre for a book
 
 ## Time spent
 
-The time breakdown was roughly 5 hours on the coding.  That included a pure python
-solution and a more Pandas/NumPy version.  I scrapped the Pandas version because it
+The time breakdown was roughly 5 hours on the coding. I admit that was a bit 
+slow for the problem, and I did end up refactoring a few times because I didn't
+like the way I did a few things. 
+
+This also included a python solution and a more Pandas/NumPy version.  I scrapped the Pandas version because it
 felt like cheating, that library does a lot of heavy lifting for you.  I spent some 
 time testing and writing tests so I could get some use cases down and understand the problem.
 
