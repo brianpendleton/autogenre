@@ -21,7 +21,11 @@ Tested on Windows and Linux (using pythonanywhere)
 ### Command
 python autogenre/scripts/genre_fit.py tests/resource/sample_book_json.txt tests/resource/sample_genre_keyword_value.csv
 
-This command uses some test resources I saved with the project.
+### Tests
+I couldn't get nosetests working on pythonanywhere, but it did work locally
+
+- cd autogenre
+- nosetests --with-coverage
 
 
 ## Edge cases
