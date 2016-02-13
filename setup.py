@@ -1,10 +1,12 @@
 #!/usr/bin/env python
-
 from setuptools import setup
 
 setup(name='autogenre',
       version='1.0',
       author='Brian Pendleton',
       author_email='brian.pendleton@gmail.com',
-      install_requires=['pytest', 'ijson']
+      install_requires=['pytest', 'ijson'],
+      tests_require=['nose'],
+      test_suite="nose.collector"
      )
+
